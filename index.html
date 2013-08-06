@@ -24,7 +24,19 @@
         border-left: 1px white solid;
       }
     }
-
+    
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+    .copy {
+      padding: 2.5% 10%;
+    }
+    .line-div-l {
+      border-bottom: 1px white solid;
+    }
+    .line-div-r {
+      border-left: 1px white solid;
+    }
+   }
     /* All form factors */
 
     /* Main body and headings */
@@ -118,12 +130,13 @@
       </div>
       <div class="row-fluid pitch">
 	<div class="span5 offset1 video">
-	  <img class="img-polaroid" src="http://placehold.it/480x300">
+	  <img class="img-polaroid"  alt="Placeholder" src="http://placehold.it/480x300">
 	</div>
 
 	<div class="span5 actions">
+	  <div class="row-fluid">
 	  <div class="span8 offset2">
-	    <div class="statistics">
+	    <div class="row-fluid statistics">
 	      <div class="span4">
 		<div class="linediv-l">
 	        <h3>0</h3> <p>backers</p>
@@ -141,19 +154,26 @@
 	      </div>
 	    </div>
 	 </div>
+	 <div class="row-fluid">
 	 <div class="span10 offset1">
 	   <div class="thermometer progress active">
 	     <div class="bar bar-success" style="width: 60%;"></div>
 	     <div class="bar bar-warning" style="width: 40%;"></div>
 	   </div>
 	 </div>
+	 </div>
+	 <div class="row-fluid">
 	 <div class="span6 offset3 order">
 	   <button class="btn btn-success btn-large">Support</button>
 	 </div>
+	 </div>
+	 <div class="row-fluid">
 	 <div class="span8 offset2 social">
 	   <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
 	   <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
 	 </div>
+	 </div>
+       </div>
        </div>
      </div>
       <div class="row-fluid section1">
@@ -161,13 +181,13 @@
 	  <img class="img-polaroid" src="http://placehold.it/480x300">
 	</div>
 	<div class="span5 copy">
-	  <p>Music is everywhere and I will find it for you.</p>
+	  <p>Music is everywhere, I'll find it for you</p>
 	</div>
       </div>
       
       <div class="row-fluid section2">
 	   <div class="span5 offset1 copy copy-right">
-	     <p>Find a concert, search for genres, promote an event.</p>
+	     <p>Locate a concert, search for tunes, promote</p>
 	   </div>
       <div class="span5 asset">
 	<img class="img-polaroid" src="http://placehold.it/480x300">
@@ -179,22 +199,22 @@
 	<div class="accordion" id="accordion2">
 	  <div class="accordion-group">
 	    <div class="accordion-heading">
-	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What does FAQ stand for?</a>
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Why use this?</a>
 	    </div>
 	    <div id="collapseOne" class="accordion-body collapse">
 	      <div class="accordion-inner">
-		Frequently Asked Question
+		Because there is much music to hear.
 	      </div>
 	    </div>
 	  </div>
 	  <div class="accordion-group">
 	    <div class="accordion-heading">
-	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">What's a Frequently Asked Question?</a>
+	      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">How will I hear it?</a>
 	    </div>
 	  </div>
 	  <div id="collapseTwo" class="accordion-body collapse">
 	    <div class="accordion-inner">
-	      A question which is commonly asked by users.
+	      You provide a location, I provide nearby music. It's simple.
 	    </div>
 	  </div>
 	</div>
